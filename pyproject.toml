@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bahnbet"
+version = "0.1.0"
+description = ""
+authors = ["1prk <63420804+1prk@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+requests = "^2.32.3"
+aiohttp = "^3.10.1"
+asyncio = "^3.4.3"
+logging = "^0.4.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
